@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/main.hint.txtpy"
+        android:textSize="17dp"
+        android:id="@+id/txtp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/main.hint.txtpa"
+        android:id="@+id/txtcpa"
+        android:layout_below="@+id/txtp"
+        android:layout_alignLeft="@+id/txtp"
+        android:layout_alignStart="@+id/txtp"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/main.hint.inputpal1"
+        android:id="@+id/inputpa1"
+        android:layout_below="@+id/txtcpa"
+        android:layout_alignLeft="@+id/txtcpa"
+        android:layout_alignStart="@+id/txtcpa" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/main.hint.inputpal2"
+        android:id="@+id/inputpa2"
+        android:layout_below="@+id/txtcpa"
+        android:layout_toRightOf="@+id/inputpa1"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/main.hint.inputpal3"
+        android:id="@+id/inputpa3"
+        android:layout_below="@+id/txtcpa"
+        android:layout_toRightOf="@+id/inputpa2"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/main.hint.inputpal4"
+        android:id="@+id/inputpa4"
+        android:layout_below="@+id/txtcpa"
+        android:layout_toRightOf="@+id/inputpa3"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/main.hint.txtpb"
+        android:id="@+id/txtcpb"
+        android:layout_below="@+id/inputpa1"
+        android:layout_alignLeft="@+id/inputpa1"
+        android:layout_alignStart="@+id/inputpa1"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/main.hint.inputplb1"
+        android:id="@+id/inputpb1"
+        android:layout_below="@+id/txtcpb"
+        android:layout_alignLeft="@+id/txtcpb"
+        android:layout_alignStart="@+id/txtcpb" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/main.hint.inputplb2"
+        android:id="@+id/inputpb2"
+        android:layout_below="@+id/txtcpb"
+        android:layout_toRightOf="@+id/inputpb1"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/main.hint.inputplb3"
+        android:id="@+id/inputpb3"
+        android:layout_below="@+id/txtcpb"
+        android:layout_toRightOf="@+id/inputpb2"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/main.hint.inputplb4"
+        android:id="@+id/inputpb4"
+        android:layout_below="@+id/txtcpb"
+        android:layout_toRightOf="@+id/inputpb3"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/main.button.btncal"
+        android:id="@+id/btnclcr"
+        android:layout_below="@+id/inputpb1"
+        android:layout_alignLeft="@id/inputpb1"
+        android:layout_alignStart="@id/inputpb1"
+        android:layout_marginTop="10dp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/separator"
+        android:layout_below="@+id/btnclcr"
+        android:layout_alignStart="@+id/txtp"
+        android:layout_alignLeft="@+id/txtp"
+        android:layout_alignRight="@id/txtp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputpy"
+        android:layout_below="@+id/separator"
+        android:layout_alignParentLeft="@+id/btnclcr"
+        android:layout_alignParentStart="@+id/btnclcr"
+        android:layout_marginTop="7dp" />
+
+</RelativeLayout>

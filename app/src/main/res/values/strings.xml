@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Calculo de calificacion</string>
+    <string name="main.hint.txtpy">Calculo de la calificaion de proyecto necesaria para un promedio final aprobatorio.</string>
+    <string name="main.hint.txtpa">Proporcione las calificaciones de las practicas del aula</string>
+    <string name="main.hint.txtpb">Proporcione la calificaciones de las practicas del laboratorio</string>
+    <string name="main.hint.inputpal1">P.A. 1</string>
+    <string name="main.hint.inputpal2">P.A. 2</string>
+    <string name="main.hint.inputpal3">P.A. 3</string>
+    <string name="main.hint.inputpal4">P.A. 4</string>
+    <string name="main.hint.inputplb1">P.B. 1</string>
+    <string name="main.hint.inputplb2">P.B. 2</string>
+    <string name="main.hint.inputplb3">P.B. 3</string>
+    <string name="main.hint.inputplb4">P.B. 4</string>
+    <string name="main.button.btncal">Calcular</string>
+</resources>
